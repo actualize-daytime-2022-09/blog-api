@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "localhost:8080", "your-frontend-app-name.netlify.app"
+    origins "localhost:8080", "flourishing-peony-356570.netlify.app"
 
     resource "*",
       headers: :any,
